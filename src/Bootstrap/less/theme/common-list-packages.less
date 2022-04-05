@@ -1,0 +1,60 @@
+.list-packages {
+
+  .package {
+    .break-word;
+    padding-top: (@padding-large-vertical * 1.5);
+    padding-bottom: (@padding-large-vertical * 1.5);
+    font-size: 15px;
+
+    .package-header {
+      .package-title {
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 0.9;
+      }
+
+      .reserved-indicator {
+        margin-top: 3px;
+        margin-left: 3px;
+        vertical-align: top;
+        width: 20px;
+      }
+
+      .edit-button {
+        vertical-align: text-bottom;
+        margin-left: 10px;
+      }
+
+      .package-by {
+        margin-left: @padding-small-horizontal;
+        color: @text-color;
+
+        @media (max-width: @screen-xs-min) {
+          margin-left: 0;
+          display: block;
+        }
+      }
+    }
+
+    .package-title {
+      font-size: 16px;
+      margin-top: 2px;
+    }
+
+    .manage-package {
+      margin-top: 8px;
+      margin-bottom: 0;
+    }
+
+    .package-details {
+      margin-top: 8px;
+      color: @text-color;
+      line-height: 20px;
+    }
+  }
+}
+
+.pager {
+  margin-top: 75px;
+  margin-bottom: 0px;
+}
